@@ -1,0 +1,107 @@
+.my_star {
+    font-size: 40px;
+    color: lightgreen;
+}
+
+.ms_navbar {
+    background-color: #FFFFFF;
+    color: #001632;
+}
+
+.ms_navbar .navbar-brand {
+    height: 70px;
+}
+
+.ms_navbar .navbar-brand > img {
+    height: 100%;
+}
+
+.ms_navbar a {
+    color: black;
+    font-size: 16px;
+}
+
+.ms_navbar .active > a {
+    color: #0cd977;
+    text-decoration: underline;
+}
+
+.ms_navbar .navbar-nav>li {
+    height: 70px;
+    line-height: 70px;
+}
+
+.ms_navbar .navbar-nav>li>a:not(.btn) {
+    line-height: 40px;
+}
+
+.ms_navbar .navbar-toggle {
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+}
+.ms_navbar .navbar-toggle .icon-bar {
+    width: 24px;
+    height: 3px;
+    background-color: #001632;
+}
+
+.ms_navbar .nav>li>a:focus, 
+.ms_navbar .nav>li>a:hover {
+    background-color: #FFFFFF;
+    text-decoration: underline;
+}
+.btn_boolean,
+.ms_navbar a.btn_boolean{
+    font-size: 16px;
+    color: #0cd977;
+    background-color: white;
+    border-color: #0cd977;
+}
+.btn_boolean:hover,
+.ms_navbar .nav>li>a.btn_boolean:focus, 
+.ms_navbar .nav>li>a.btn_boolean:hover {
+    background-color: #0cd977;
+    color: white;
+    text-decoration: none;
+}
+
+.ms_navbar .navbar-nav>li>a.btn_boolean {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .ms_navbar .navbar-nav {
+        background-color: #0cd977;
+    }
+    .ms_navbar .navbar-nav .active > a {
+        color: white;
+    }
+    .ms_navbar a {
+        font-size: 24px;
+        color: white;
+    }
+
+    .btn_boolean, 
+    .ms_navbar a.btn_boolean {
+        font-size: 24px;
+        background-color: transparent;
+        color: #007bff;
+        border-color: 0;
+    }
+    .btn_boolean:hover,
+    .ms_navbar .nav>li>a.btn_boolean:focus, 
+    .ms_navbar .nav>li>a.btn_boolean:hover {
+        background-color: transparent;
+        color: #0056b3;
+        text-decoration: underline;
+    }
+    .ms_navbar .nav>li>a:focus, .ms_navbar .nav>li>a:hover {
+        background-color: transparent;
+        color: #0056b3;
+        text-decoration: underline;
+    }
+    
+
+}
